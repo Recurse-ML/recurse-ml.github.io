@@ -73,17 +73,6 @@ custom_rules:
     description: "Don't use synchronous operations (fs.readFileSync, crypto.pbkdf2Sync) in request handlers as they block the event loop and kill performance under load. Use async alternatives or move to worker threads. One blocking operation can take down your entire API response time."
 ```
 
-
-```yaml
-custom_rules:
-  - name: "Avoid Blocking Operations in Request Handlers"
-    applicable_files:
-      - "routes/**/*.js"
-      - "api/**/*.js"
-      - "**/*handler*.js"
-    description: "Don't use synchronous operations (fs.readFileSync, crypto.pbkdf2Sync) in request handlers as they block the event loop and kill performance under load. Use async alternatives or move to worker threads. One blocking operation can take down your entire API response time."
-```
-
 ```yaml
 custom_rules:
   - name: "Database Query Optimisation"
