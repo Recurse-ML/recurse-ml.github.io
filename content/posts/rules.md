@@ -1,7 +1,7 @@
 ---
 title: "Custom Semantic Code Checks for PRs"
 date: 2025-06-26T17:16:50+01:00
-draft: true
+draft: false
 toc: false
 images:
 tags: 
