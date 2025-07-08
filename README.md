@@ -27,6 +27,6 @@ hugo new content/learning.md
 
 1. Name posts using 1-2 (ideally 1) words.
     When using multiple words join them together, such as `applebanana.md` (cf. `appleBanana.md`, `apple-banana.md`).
-    This is inspired by [sive.rs](sive.rs) and [paulgraham.com](paulgraham.com).
+    This is inspired by [sive.rs](https://sive.rs) and [paulgraham.com](https://paulgraham.com).
 2. Write [one sentence](https://sive.rs/1s) per line.
     Use two newlines for paragraphs.
