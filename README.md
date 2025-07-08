@@ -23,7 +23,8 @@ hugo new content/learning.md
 
 > To do a dull thing with style is preferable to doing a dangerous thing without it.
 > To do a dangerous thing with style is what I call art.
--- Charles Bukowski
+
+— Charles Bukowski
 
 1. Name posts using 1-2 (ideally 1) words.
     When using multiple words join them together, such as `applebanana.md` (cf. `appleBanana.md`, `apple-banana.md`).
