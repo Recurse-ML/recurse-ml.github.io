@@ -2,3 +2,6 @@ baseURL = 'https://blog.recurse.ml/'
 languageCode = 'en-us'
 title = 'Recurse ML Blog'
 theme = 'hermit-V2'
+
+[permalinks]
+  posts = "/:filename/"
