@@ -1,6 +1,6 @@
 ---
 title: "Custom Semantic Code Checks for PRs"
-date: 2025-06-26T17:16:50+01:00
+date: 2025-07-09T17:16:50+01:00
 draft: false
 toc: false
 tags: 
@@ -32,6 +32,8 @@ Then, create a `.recurseml.yaml` file (you can place it anywhere in your project
 # put this in .recurseml.yaml anywhere in your repo
 rules: .cursor/rules
 ```
+
+Recurse ML rules are compatible with [Continue's](https://docs.continue.dev/customize/deep-dives/rules) [Cursor's](https://docs.cursor.com/context/rules) rule formats.
 
 Next, create your rules directory and add your first rule. Create a file called `effective-comments.md` in your `.cursor/rules` directory:
 
@@ -193,13 +195,16 @@ See: https://www.joelonsoftware.com/2005/05/11/making-wrong-code-look-wrong/
 ```
 
 Now, the rules act as a JIT learning tool for new-joiners, too!
+And if your team is already using Cursor Rules for AI-assisted development, these same patterns will help maintain consistency across both human and AI-generated code.
+
 
 ## Your Usecase Here
 
 Do you have a pet peeve that you fight for like it's the Battle of Verdun?
 Is there part of your project that requires extra care during every PR?
 Maybe you just found a weird and wacky way to use this feature?
+How does this compare to your existing agent rule setup?
 I'd like to hear all about it.
-My email's my name at recurse.ml.
+My email's armin at recurse.ml.
 And for higher bandwidth comms, you can find our team on Discord: https://discord.gg/qEjHQk64Z9
 
