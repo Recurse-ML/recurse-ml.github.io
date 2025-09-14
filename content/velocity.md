@@ -4,6 +4,16 @@ draft = true
 title = 'Clean Code at High Velocity'
 +++
 
+<!-- 
+Further articles:
+1. What does it mean to write code that's easy to test? Modularization, mocks
+2. How to review AI generated code?
+3. How to organize team of devs who rely on AI?
+4. How does career progression and team management look like for teams relying heavily on AI?
+5. Warning signs to look out for when team-members are using AI (when it might appear that they're progressing faster than expected and where they need support, what kind of roles they're ready to pick up and what do they need to focus on learning-wise)
+
+-->
+
 <!-- TODO: the article uses the term Clean Code to refer to general software engineering principles, what's a more appropriate term? -->
 
 Most advice on writing maintainable software ignores the pressure of shipping quickly.
