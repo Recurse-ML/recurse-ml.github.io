@@ -140,7 +140,7 @@ From a product perspective, this makes sense. I rarely want an LLM coding agent 
 
 Instead of being a problem, this is an opportunity to delineate responsibilities.
 
-## Reclaim Your Role as Architect
+## Reclaim Your Role as an Architect
 
 When LLMs handle the implementation details, our role as reviewers fundamentally changes.
 We're no longer line-by-line code inspectors catching syntax errors or style violations.
